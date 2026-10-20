@@ -1,50 +1,51 @@
-\# Git Lab
+# Git Lab
 
+A practice repository for learning Git, GitHub, and basic Python development.
 
+## What I'm Learning
 
-A practice repository for learning Git and GitHub.
+- Git commits and history
+- Branches, merging, and rebasing
+- Merge conflict resolution
+- GitHub push, pull, and clone workflows
+- Keeping secrets and local files out of version control
 
+## Requirements
 
+- Python 3.10 or newer
+- Git
 
-\## What I'm Learning
+No external Python packages are currently required.
 
-
-
-\- Git commits and history
-
-\- Branches and merging
-
-\- Merge conflict resolution
-
-\- GitHub push, pull, and clone workflows
-
-
-
-\## Getting Started
-
-
+## Getting Started
 
 Clone the repository:
 
+```bash
+git clone https://github.com/ShrishaJ007/git-lab.git
+cd git-lab
+```
 
+## Run the Application
 
-&#x20;   git clone https://github.com/ShrishaJ007/git-lab.git
+Run the main Python script:
 
+```bash
+python app.py
+```
 
+Run the additional script:
 
-Enter the project directory:
+```bash
+python main_update.py
+```
 
+On Windows, you can use `py` instead of `python` if needed.
 
+## Tests
 
-&#x20;   cd git-lab
+Automated tests have not been added yet. The scripts can currently be run manually to verify their output.
 
+## Purpose
 
-
-\## Purpose
-
-
-
-This repository documents my hands-on learning
-
-of Git and GitHub.
-
+This repository documents my hands-on learning of Git and GitHub.
